@@ -1,0 +1,97 @@
+<!DOCTYPE html> <!-- Define el tipo de documento como HTML5 -->
+<html lang="es"> <!-- Inicia el documento HTML y establece el idioma a español -->
+<head>
+  <meta charset="UTF-8"> <!-- Define la codificación de caracteres como UTF-8 -->
+  <title>PAGINA DE WISH</title> <!-- Título que aparece en la pestaña del navegador -->
+
+  <style>
+    /* Estilos generales del cuerpo de la página */
+    body {
+      margin: 0; /* Elimina los márgenes por defecto del navegador */
+      font-family: Arial, sans-serif; /* Define la fuente del texto */
+      display: flex; /* Usa flexbox para el diseño CSS*/
+      flex-direction: column; /* Ordena los elementos verticalmente CSS*/
+      align-items: center; /* Centra los elementos horizontalmente */
+      justify-content: center; /* Centra los elementos verticalmente */
+      height: 100vh; /* Altura de la pantalla completa del navegador */
+      gap: 20px; /* Espacio entre los elementos hijos */
+      background-color: #f9f9f9; /* Color de fondo claro */
+    }
+
+    /* Estilos para el contenedor de la parte superior (imagen y video) */
+    .contenedor {
+      width: 80vw; /* Ancho del 80% del viewport */
+      display: flex; /* Flexbox en horizontal */
+      justify-content: space-between; /* Distribuye el espacio entre los cuadros */
+      gap: 20px; /* Espacio entre los cuadros */
+    }
+
+    /* Estilos para los cuadros individuales (imagen y video) */
+    .contenedor .frame {
+      flex: 1; /* Cada cuadro ocupa el mismo espacio */
+      border: 2px solid #ccc; /* Borde gris claro */
+      box-sizing: border-box; /* Incluye padding y borde en el cálculo del tamaño */
+      padding: 10px; /* Espacio interno */
+      background-color: #ffffff; /* Fondo blanco */
+    }
+
+    /* Estilos para el contenedor inferior de descripción */
+    .inferior {
+      width: 80vw; /* Ancho del 80% del viewport */
+      border: 2px solid #333; /* Borde gris oscuro */
+      padding: 15px; /* Espacio interno */
+      background-color: #f2f2f2; /* Fondo gris claro */
+    }
+
+    /* Estilos para las imágenes */
+    img {
+      width: 100%; /* Ocupa el 100% del contenedor */
+      height: auto; /* Mantiene la proporción original */
+    }
+
+    /* Estilos para el video (iframe) */
+    iframe {
+      width: 100%; /* Ocupa el 100% del contenedor */
+      height: 315px; /* Altura fija para el video */
+      border: none; /* Sin borde */
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Contenedor que agrupa imagen y video en la parte superior -->
+  <div class="contenedor">
+
+    <!-- Cuadro izquierdo: contiene una imagen -->
+    <div class="frame">
+      <h3>Rata Exotica</h3> <!-- Título del cuadro -->
+      <img src="LLLL/RATA.jpeg"alt="Rata Exotica UwU">
+      <!-- Imagen con descripción alternativa -->
+    </div>
+
+    <!-- Cuadro derecho: contiene un video de YouTube -->
+    <div class="frame">
+      <h3>WACHA ESTO</h3> <!-- Título del cuadro -->
+      <iframe 
+        src="https://www.youtube.com/embed/b57ueUYyQ9Y?si=pWrd7X0AcCTWaTg-"
+        title="PAPULANDIA">
+      </iframe> <!-- Video embebido desde YouTube -->
+    </div>
+
+  </div>
+
+  <!-- Contenedor inferior: descripción explicativa del contenido -->
+  <div class="inferior">
+    <h3>Sabias que?</h3> <!-- Título del área de descripción -->
+    <p>
+    Tu fiesta no es como la mia, hay que ser racistas, las mujeres no sirven, viva la UNE
+
+      <em>“¿POR QUE EL MUNDO ES TAN CRUEL?”</em>.
+    
+
+      
+
+
+  </div>
+</body>
+</html>
